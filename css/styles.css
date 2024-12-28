@@ -1,0 +1,108 @@
+body{
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    
+
+   
+}
+
+.logo{
+    font-family: "raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.48px;
+    text-decoration: none;
+}
+.logo-renk{
+     color: #4D5AE5;
+     
+
+}
+.logo-renk2{
+    color: #2E2F42;
+    
+}
+.menu{
+    font-weight:500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    
+}
+.menu-1:hover{
+    color: #E7E9FC;
+   
+}
+.info{
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+.hero-image{
+    background-color: #2E2F42;
+}
+.baslik-1{
+    font-size: 56px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 1.07;
+    letter-spacing: 0.32px;
+
+}
+.button-1{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.aciklama-1{
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.32px;
+
+}
+.takim{
+    background-color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #434455;
+
+}
+.takim-arka-plan{
+    background-color: #FFFFFF;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.32px;
+
+}
+.footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+
+}
+.logo-2{
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.16;
+    letter-spacing: 0.48px;
+
+}
+.logo2-renk2{
+    color: #F4F4FD;
+}
+
