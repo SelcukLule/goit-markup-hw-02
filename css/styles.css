@@ -1,47 +1,69 @@
 body{
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    color: #2E2F42;
+    color: #434455;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
     
 
    
 }
+header{
+    cursor: pointer;
+}
 
 .logo{
-    font-family: "raleway", sans-serif;
-    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.48px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
-.logo-renk{
-     color: #4D5AE5;
-     
 
-}
+    
 .logo-renk2{
     color: #2E2F42;
     
 }
 .menu{
+    list-style-type: none;
+}
+.menu-1{
     font-weight:500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+    list-style-type: none;
+    
+
+
     
 }
 .menu-1:hover{
-    color: #E7E9FC;
+    color: #404bbf;
    
 }
-.info{
+.menu-1:focus{
+    color: #404bbf;
+}
+.info, .info-1{
     text-decoration: none;
-    font-style: normal;
+    list-style-type: none;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    font-style: normal;
     color: #434455;
+    
+}
+.info:hover{
+    color: #404bbf ;
+}
+.info:focus{
+    color: #404bbf;
 }
 .hero-image{
     background-color: #2E2F42;
@@ -51,58 +73,107 @@ body{
     font-weight: bold;
     color: #FFFFFF;
     line-height: 1.07;
-    letter-spacing: 0.32px;
+    text-align: center;
+    
 
 }
 .button-1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+    letter-spacing: 0.64px;
+
 }
+button:hover {
+    background-color: #404bbf;
+  }
+  button:focus {
+    background-color: #404bbf;
+  }
 .aciklama-1{
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    
     color: #434455;
     background-color: #FFFFFF;
+    list-style-type: none;
 }
-h2{
+h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.32px;
+    color: #2E2F42;
+    
 
+}
+.takim-baslik{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+
+    
+
+}
+.team-members{
+    list-style-type: none;
+}
+.team-1{
+    background-color: #FFFFFF;
 }
 .takim{
     background-color: #F4F4FD;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    
     color: #434455;
 
 }
 .takim-arka-plan{
     background-color: #FFFFFF;
 }
-h3{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.32px;
-
+h2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+    
 }
+.portfolyo-liste{
+    list-style-type: none;
+}
+.uygulamalar{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+
 .footer{
     background-color: #2E2F42;
     color: #F4F4FD;
 
 }
 .logo-2{
-    font-family: "raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: bold;
-    line-height: 1.16;
-    letter-spacing: 0.48px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
 
 }
 .logo2-renk2{
-    color: #F4F4FD;
+    color: #2e2f42;
 }
 
